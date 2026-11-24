@@ -1,0 +1,17 @@
+ID,Design requirement,Hazard,Implementation,Verification,Status,Release implication
+HS-001,Stored new-case waveform bytes shall be digest-verified before use,R-012,core/store.py:get_case and add_case,test_new_record_contains_verifiable_digest and test_corrupt_saved_archive_blocks_loading_and_readiness,ENGINEERING TESTED,Not sufficient for clinical release
+HS-002,Historical unverified cases shall never be silently marked valid,R-012,core/store.py:verify_record_integrity,test_legacy_case_migration_does_not_auto_certify,ENGINEERING TESTED,Not sufficient for clinical release
+HS-003,NPZ shall have bounded declared data size and allowed members,R-013,core/records.py:record_from_npz,test_npz_rejects_oversized_archive_entry,PARTIAL TESTED,Need security fuzzing
+HS-004,Normalized duplicate CSV columns shall be rejected,R-003,core/importers.py:read_csv,test_csv_rejects_duplicate_normalized_header,ENGINEERING TESTED,Need device-level test
+HS-005,Explicit identifiable CSV header variants shall be blocked,R-007,core/importers.py:read_csv,test_import_blocks_patient_identifier_column_variant,PARTIAL TESTED,Not general PHI protection
+HS-006,Research CSV outputs shall escape potentially executable spreadsheet text,R-014,core/reporting.py:safe_csv_text,test_csv_export_escapes_formula_like_channel_names,ENGINEERING TESTED,Need export suite
+HS-007,Failing audit/event integrity shall trigger review rather than green status,R-006,core/store.py:verify_audit and safety/gates.py:assess_workspace,test_audit_tampering_fails_local_gate,ENGINEERING TESTED,Not tamper-proof
+HS-008,No research test output shall grant medical-use authorization,R-008,safety/gates.py:assess_release,test_no_workspace_does_not_imply_clinical_authorization and test_benchmark_completion_is_research_only,ENGINEERING TESTED,Clinical release remains blocked
+HS-009,Missing benchmark files shall not be treated as complete validation,R-004,safety/gates.py:assess_release,test_benchmark_incomplete_if_evidence_missing,ENGINEERING TESTED,Independent evaluation outstanding
+HS-010,Local readiness report must be create-only and avoid raw waveforms,R-007,safety/gates.py:write_report,test_report_is_write_once_and_contains_no_raw_waveform,ENGINEERING TESTED,Independent logging outstanding
+HC-001,Authenticated clinician accounts and least privilege,R-007,NOT IMPLEMENTED,Independent hospital integration and security tests,OPEN,BLOCKED
+HC-002,Encryption and retention for identifiable patient data,R-007,NOT IMPLEMENTED,Threat model and data protection impact assessment,OPEN,BLOCKED
+HC-003,Predefined clinical accuracy thresholds per indication,R-001,NOT ESTABLISHED,Independent clinical and statistical review,OPEN,BLOCKED
+HC-004,Independent clinical validation and human factors,R-005,NOT PERFORMED,Prospective approved study and observed use,OPEN,BLOCKED
+HC-005,Clinical sponsor approved intended use and risk class,R-008,NOT APPROVED,Clinical regulatory quality signatures,OPEN,BLOCKED
+HC-006,HIS/EHR interoperability and downtime procedure,R-008,NOT IMPLEMENTED,Hospital IT interface verification,OPEN,BLOCKED

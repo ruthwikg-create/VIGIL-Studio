@@ -1,14 +1,18 @@
-# Python virtual environments and caches
+# Python and test/cache outputs
 .venv/
 venv/
 __pycache__/
 .pytest_cache/
-*.pyc
+*.py[cod]
+.coverage
+htmlcov/
+
+# Builds and installers
 build/
 dist/
 *.spec
 
-# Sensitive/large local research data
+# Research workspaces and local state
 VIGILStudio_Workspace/
 VIGILStudio_Workspace*/
 VIGIL_WORKSPACE_PATH.txt
@@ -18,27 +22,28 @@ SHOWCASE/demo_workspace/
 **/*.db
 **/*.db-*
 **/*.npz
+**/*.safetensors
 **/*.pkl
 **/*.joblib
-**/*.safetensors
+**/*.partial
+**/*.extracting/
 external_data/
 raw_datasets/
 processed_data/
 runs/
 checkpoints/
 
-# Credentials and secrets
+# Secrets
 .env
 .env.*
 !.env.example
 *credentials*
+*token*.txt
 *.key
 *.pem
 *.p12
 *.pfx
 
-# Partial downloads
-*.partial
-*.extracting/
+# Misc
 .DS_Store
 Thumbs.db

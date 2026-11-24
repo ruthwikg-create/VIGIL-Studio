@@ -1,0 +1,13 @@
+Requirement ID,Design input or requirement,Source rationale,Implementation,Verification test or evidence,State
+REQ-V001,Reject absent original ECG files before benchmark,Data integrity,clinical_readiness_benchmark.preflight,test_preflight_does_not_treat_annotation_only_as_complete,TESTED SYNTHETIC
+REQ-V002,Detect zero-length original ECG files,Data integrity,clinical_readiness_benchmark.preflight,test_preflight_rejects_empty_file,TESTED SYNTHETIC
+REQ-V003,Preserve original local inputs unchanged,Source provenance,read_wfdb and reporting,human review of read-only file use,REVIEW REQUIRED
+REQ-V004,Only use expert labels for scoring,Prevent test leakage,evaluate_ecg_record source separation,code review and synthetic evaluation tests,REVIEW REQUIRED
+REQ-V005,Fix scoring tolerance and detector identity,Reproducible evaluation,locked_protocol.json plus protocol constants,test_no_posthoc_tolerance_change,TESTED SYNTHETIC
+REQ-V006,Report missing and erroneous records,Complete reporting,execute completion_status,test_incomplete_runs_fail_gate,TESTED SYNTHETIC
+REQ-V007,Provide per-record failure detail and aggregates,Scientific transparency,REPORT.md and per_record_metrics.csv,test_pooled_metrics_are_count_based,TESTED SYNTHETIC
+REQ-V008,Do not claim clinical certification from benchmark results,Patient safety labeling,Report and README disclaimers,test_no_false_clinical_labels_in_report,TESTED SYNTHETIC
+REQ-C001,Clinically appropriate measurement accuracy with external validation,To be defined with clinicians,NOT IMPLEMENTED,Independent external multi-site study,OPEN
+REQ-C002,Medical-grade cybersecurity and protected patient storage,To be defined under privacy law and security requirements,NOT IMPLEMENTED,Independent cybersecurity assessments,OPEN
+REQ-C003,Clinical human-factors and use-safety evaluation,To be defined by clinical workflow and IEC 62366-1 context,NOT IMPLEMENTED,Clinician usability study,OPEN
+REQ-C004,Regulatory authorization for intended medical-device claims,Jurisdiction-specific MDR-2017 and other applicable law,NOT APPLICABLE TO RESEARCH BUILD,Authority determination and approvals as applicable,OPEN

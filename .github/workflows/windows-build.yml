@@ -1,0 +1,36 @@
+name: Windows Desktop Build
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  test-and-package:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install requirements
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt -r requirements-build.txt
+      - name: Run Python test suite
+        run: python -m pytest -q tests
+      - name: Build native Windows distribution
+        shell: pwsh
+        run: |
+          pyinstaller --noconfirm --clean --windowed --onedir --name VIGILStudio --collect-all matplotlib --collect-all mne --collect-all wfdb --collect-submodules vigil_studio --collect-submodules scipy --collect-submodules sklearn --add-data 'docs;docs' --add-data 'examples;examples' launch.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          if (!(Test-Path 'dist/VIGILStudio/VIGILStudio.exe')) { throw 'Executable not produced' }
+          Compress-Archive -Path 'dist/VIGILStudio' -DestinationPath 'VIGILStudio_Windows_Research.zip' -CompressionLevel Optimal
+      - uses: actions/upload-artifact@v4
+        with:
+          name: VIGILStudio-Windows-research-build
+          path: VIGILStudio_Windows_Research.zip
+          retention-days: 14

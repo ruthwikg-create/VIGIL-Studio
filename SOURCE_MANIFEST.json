@@ -1,0 +1,796 @@
+{
+  "release": "4.8",
+  "scope": "GitHub source-only, excludes optional 15 MB showcase archive",
+  "files": [
+    {
+      "path": ".github/workflows/windows-build.yml",
+      "size": 1462,
+      "sha256": "7be789a53ea68f38039c2da4aae54369ae0fd0ac05e0ee4a09c1b6fa1958a843"
+    },
+    {
+      "path": ".gitignore",
+      "size": 590,
+      "sha256": "8a578873f96c197a2cd34539bdba5d23dc97ad3e33733150826f56e0e0cd27a5"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 7974,
+      "sha256": "69685b5bc2ebb83df040f52fa3360381b66a9fd5a71c553dac3a5130bff2c2f5"
+    },
+    {
+      "path": "GENERATE_REFERENCE_REPORT_WINDOWS.bat",
+      "size": 427,
+      "sha256": "967f6c35d013b9505c19696a7387aa7cfee0224cac888d9b6251e261d7e094a4"
+    },
+    {
+      "path": "INSTALL_ADVANCED_AI_WINDOWS.bat",
+      "size": 1078,
+      "sha256": "d6565ee917b1817ee0b56e2c5a0de9e546eb639c55e0dd2ef3468f5ec54203da"
+    },
+    {
+      "path": "INSTALL_FULL_RESEARCH_WINDOWS.bat",
+      "size": 4019,
+      "sha256": "ac8d2f2ab71c66498aa2bec319f7415ef7a6fc13d59401c9fb9101a2fe69384e"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1313,
+      "sha256": "e0ada812dd9a7074ce41820362f35ace875e20baea64a17d7cedd6e61639fd76"
+    },
+    {
+      "path": "PUBLISH_TO_GITHUB.bat",
+      "size": 100,
+      "sha256": "a2f3e736323cc094d3e2faf3fe1f954ab44523d6c6fc14e0d1a5ff7e8358f084"
+    },
+    {
+      "path": "PUBLISH_TO_GITHUB.ps1",
+      "size": 2031,
+      "sha256": "81ba05b5e0854765c5ef691b6e22276ef39ba22a9d0aed7ae74e5b2aa2381cff"
+    },
+    {
+      "path": "README.md",
+      "size": 4171,
+      "sha256": "0476ff551ef1e54820c40fefe3565c027f20448b5354e0a64b03a2e141d9d2c8"
+    },
+    {
+      "path": "RUN_ENGINEERING_EVIDENCE_WINDOWS.bat",
+      "size": 582,
+      "sha256": "de4f8135044e64ee70f8584fe300cc4e13901d175d04afe226188f4f142da1b1"
+    },
+    {
+      "path": "RUN_HOSPITAL_READINESS_CHECK_WINDOWS.bat",
+      "size": 620,
+      "sha256": "3a3225251173a684a409448b9f5dad826689042b053cd515a18f0242a6060bed"
+    },
+    {
+      "path": "RUN_MITBIH_VERIFICATION_WINDOWS.bat",
+      "size": 1154,
+      "sha256": "e18bf4d952f26810449c2e94123081d5028987f4aa7b5ad5b855be7410489e2c"
+    },
+    {
+      "path": "RUN_RESEARCH_WINDOWS.bat",
+      "size": 246,
+      "sha256": "ec803c6f60c683802a6eb0b255d813499f08006937181fe9b25823ac2d792a6d"
+    },
+    {
+      "path": "RUN_SECURITY_TESTS_WINDOWS.bat",
+      "size": 562,
+      "sha256": "0e363507c66bff26a3bf67d1d870198e388aca0a48d3159dca2bf93f79d80fe2"
+    },
+    {
+      "path": "RUN_SELF_TEST_WINDOWS.bat",
+      "size": 1545,
+      "sha256": "0416386dff72729b477d8c1d0612ec2c5106139be509abe2154353d7bec32b25"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 552,
+      "sha256": "363659f2b00ce0623a06cf823050d8394b23245043d4ce349f8f34de2ddc5893"
+    },
+    {
+      "path": "SHOWCASE_README_FIRST.md",
+      "size": 1823,
+      "sha256": "9c075b9dfa26ea9010fb83c067cebed266a857918286af904c8b310119fe68fb"
+    },
+    {
+      "path": "START_AI_RESEARCH_WINDOWS.bat",
+      "size": 224,
+      "sha256": "5e50c9ea99394b415ad64e5e846e54a48abaaaca38910aa555e01e3d751c802c"
+    },
+    {
+      "path": "START_SHOWCASE_WINDOWS.bat",
+      "size": 672,
+      "sha256": "70398a17fd3d7f171aea195a59bd7c2675b52699eca16bf2fdd626bdb2922284"
+    },
+    {
+      "path": "START_WINDOWS.bat",
+      "size": 641,
+      "sha256": "a474287865317057d647d94772058e8dfe0bbd174ec50f8eb4ee45305bcb7909"
+    },
+    {
+      "path": "TEST_RESULTS.md",
+      "size": 2650,
+      "sha256": "0b69768bfc4d0ccc612df672cd27d14485af654f72cc88f0bd3c7801fa9b0dd7"
+    },
+    {
+      "path": "VERIFY_EVIDENCE_PACKAGE_WINDOWS.bat",
+      "size": 420,
+      "sha256": "ea8697a105e0995a0eadd376e902f353705537b1771a63e00733a079737f9f2a"
+    },
+    {
+      "path": "docs/AI_ENGINES_AND_EXPERIMENTS.md",
+      "size": 4442,
+      "sha256": "9ee184cc99af5438438c0c621e7e49dc15050e7487917f973165d193f0c8892b"
+    },
+    {
+      "path": "docs/AI_MODEL_LICENSES.md",
+      "size": 2214,
+      "sha256": "ff983b6ed6f31b8a1acfda599bdeceb544f130ea92f8635417087811a1b182b5"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "size": 3380,
+      "sha256": "8d4f081cc7593032a2d29cd3af6d5cb9ee9936c18597273a3ae7f87909496cef"
+    },
+    {
+      "path": "docs/BRAND_IDENTITY_V4_4.md",
+      "size": 1171,
+      "sha256": "f9a56bfbbf3d58d1a4421de29cc8a695c8af09f62e1bb771884a5cd6c8929325"
+    },
+    {
+      "path": "docs/CLINICAL_READINESS_GATE_1.md",
+      "size": 7404,
+      "sha256": "aef8262b90afb763dc2dfc783a4f735ff753707c92feef66ff7305de1a253161"
+    },
+    {
+      "path": "docs/CLINICAL_SPONSOR_INTAKE.md",
+      "size": 2188,
+      "sha256": "53b20722349a8512e3babbd0d6d10867454e24d6fc73ee9145adece50b3a81b8"
+    },
+    {
+      "path": "docs/DATASET_CATALOG.md",
+      "size": 2445,
+      "sha256": "7067239a62d4440f4fef29e74a55b2e43055b3d0870a05d62a2ec2d10f8a369c"
+    },
+    {
+      "path": "docs/DATA_SOURCES_AND_LICENSES.md",
+      "size": 3755,
+      "sha256": "9998401af715f91fcdcfb193ef893fd419acb5b45d322f313ef650abee036832"
+    },
+    {
+      "path": "docs/ECG_REFERENCE_VALIDATION_V4_1.md",
+      "size": 3943,
+      "sha256": "ea5b36609f7d17bd0db585cb49d0ec423bf544f6ba79343fa64d5d7110dba8ff"
+    },
+    {
+      "path": "docs/HOSPITAL_DEPLOYMENT_BLOCKERS_V4_7.md",
+      "size": 6524,
+      "sha256": "fa97642a7177d39db0f2a55b7414b90a140573d0c5d697c54b50dd0bbed9b2b0"
+    },
+    {
+      "path": "docs/HOSPITAL_READINESS_ENGINEERING_V4_6.md",
+      "size": 9210,
+      "sha256": "5a452a52f816134a95949e495159c6903b806e875c078688768d83d2761872a6"
+    },
+    {
+      "path": "docs/INSTRUMENT_DESIGN.md",
+      "size": 2144,
+      "sha256": "5a094fe8d66a94f1465958f8a50330e7db3eef7466b745a4f8764e836abd1820"
+    },
+    {
+      "path": "docs/KNOWN_LIMITATIONS.md",
+      "size": 4086,
+      "sha256": "4149f7ad9ba579f5bb2377240ab452ec19da0fdab95682fcd6daa9647adab702"
+    },
+    {
+      "path": "docs/LAYOUT_FIXES_V4_3.md",
+      "size": 2889,
+      "sha256": "2a4237d4f9c95344d25eb218e9998554ee098a615d5817b1293f324707a9c06b"
+    },
+    {
+      "path": "docs/PROFESSIONAL_REPORTING_V4_8.md",
+      "size": 3345,
+      "sha256": "a7b462b78e474bbce5ef46633d2e1b4c6168fbca868489e8359c72f54b565d57"
+    },
+    {
+      "path": "docs/README_RELEASE_V4_8_FULL.md",
+      "size": 20855,
+      "sha256": "f101e9762c9bbc05c74924c551de23675527791d77b2a351e28119ac383c7bb2"
+    },
+    {
+      "path": "docs/READ_ME_FIRST_HOSPITAL_PROJECT.md",
+      "size": 2748,
+      "sha256": "4380b9a280693c6a019825eab7ecd2a16051eac4b81305d07e9ce7cc1d27a8d4"
+    },
+    {
+      "path": "docs/RELEASE_SCOPE_V3.md",
+      "size": 2002,
+      "sha256": "c48825391e262ad40710c98ed81cd05d068325417cfc20152b2fcc17e177bea0"
+    },
+    {
+      "path": "docs/REQUIREMENTS_TRACEABILITY_DRAFT.csv",
+      "size": 2148,
+      "sha256": "19b2a05bdbb958973a0df6cd24bae865cb42bdfc3d9a045adcae5259582bdfa3"
+    },
+    {
+      "path": "docs/REQUIREMENTS_TRACEABILITY_V4_6.csv",
+      "size": 3084,
+      "sha256": "c4e384d426b37bace370e048312360bc97879e6f946d6d6dd2dd99817e51acd4"
+    },
+    {
+      "path": "docs/REQUIREMENTS_TRACEABILITY_V4_7.csv",
+      "size": 2986,
+      "sha256": "e8d230e73339bafd636eb51e53d00f60faa1d635c4e8810bf1681f367660298b"
+    },
+    {
+      "path": "docs/RESEARCH_SECURITY_OPERATIONS_V4_7.md",
+      "size": 3322,
+      "sha256": "580a834376205c89e2a11545bcf2d4ac6baa00e37bfcdcdf395b1d0411241931"
+    },
+    {
+      "path": "docs/RISK_REGISTER_DRAFT.csv",
+      "size": 5032,
+      "sha256": "94a8843d2761c948363e3cbb7735e16e27be7af48e7849a12d20bd66200a272f"
+    },
+    {
+      "path": "docs/SECURITY_AND_REGULATORY.md",
+      "size": 2035,
+      "sha256": "41febfbd75d1e23dce47ef099f917e445fc3e4e9d6279b57a3d643fdf2937ded"
+    },
+    {
+      "path": "docs/SECURITY_THREAT_MODEL_V4_6.md",
+      "size": 2462,
+      "sha256": "f8e7f9f44db7ac73f5e33a7d5744496ee32bf4f6aa52e78bb1a14f291fcc0b69"
+    },
+    {
+      "path": "docs/SIDEBAR_ACCESSIBILITY_V4_2.md",
+      "size": 1930,
+      "sha256": "799b09b7f7afc9846fcaf50fc317f7fa6829e05cd71a381b5354fce082426884"
+    },
+    {
+      "path": "docs/VALIDATION_INSTRUCTIONS_WINDOWS.md",
+      "size": 2717,
+      "sha256": "70896119b4766198217714bed4dff317b4640728396d115083168a964712248a"
+    },
+    {
+      "path": "docs/VALIDATION_ROADMAP.md",
+      "size": 3652,
+      "sha256": "abd312dc4bd5d5d8337ea392e92e62d30bef3c423b58cc7e1ce3f0b14a9a071a"
+    },
+    {
+      "path": "examples/DEMO_Engineering_Readiness_v4_8.pdf",
+      "size": 44289,
+      "sha256": "da9c260982f79ec902e0549048682b645cd2983776eeeaafeed4359c62c38c7c"
+    },
+    {
+      "path": "examples/SYNTHETIC_Research_Dossier_v4_8.pdf",
+      "size": 326633,
+      "sha256": "67bb732379a2ce4b98e2c2d70d63439464f108b79242a8151450e85441b63e3d"
+    },
+    {
+      "path": "examples/synthetic_agreement.csv",
+      "size": 86434,
+      "sha256": "645100e8513f1acab7ec03efb5ca9d5c33f70fc00b9831851ac65dc691748472"
+    },
+    {
+      "path": "examples/synthetic_artifact.csv",
+      "size": 79603,
+      "sha256": "4dc7f308b60b156a5cdb30f842556e1e4bf92e7de4582d54b78c307824a3561a"
+    },
+    {
+      "path": "examples/synthetic_discordant.csv",
+      "size": 82363,
+      "sha256": "0edfd2a770e3c6086d1a3447fb0c097579427d5858bdc637de0399a8a3fc77d2"
+    },
+    {
+      "path": "launch.py",
+      "size": 590,
+      "sha256": "853f3e114fd89dfe22bbdd880061449dc5a6d1054aca5e9b65b88486f56903e1"
+    },
+    {
+      "path": "launch_showcase.py",
+      "size": 651,
+      "sha256": "f552610f53b88ebede608d7c6f1d308af31e84a021aad2eceaf74f9caacf7db2"
+    },
+    {
+      "path": "media/screenshots/01_OVERVIEW.png",
+      "size": 201435,
+      "sha256": "9676c66521cac2f68ae99a3698788a66ebed9082c88b351e2a02d22784675b14"
+    },
+    {
+      "path": "media/screenshots/02_SIGNAL_LAB.png",
+      "size": 218559,
+      "sha256": "61216aaa09e5e81214d77af9d1c1c63ba7bd4b6fd556ca61472a3f32c47ef8ba"
+    },
+    {
+      "path": "media/screenshots/03_QUALITY_EXPLORER.png",
+      "size": 123677,
+      "sha256": "1b3ec8a1b422bc1ddbdd82594b1ac1a57ff06486b1e2e5b16500f7168738e42b"
+    },
+    {
+      "path": "media/screenshots/04_MODALITY_LAB.png",
+      "size": 177950,
+      "sha256": "e42bc897ffacf4c2e47c47a58dafcf057eccd02384b2c4226014369495e30ca2"
+    },
+    {
+      "path": "media/screenshots/05_ANNOTATION_STUDIO.png",
+      "size": 96299,
+      "sha256": "559de75dd08c3b17310dd58fe882edd12596811aeaf7ad061e6d6bb6ee47597d"
+    },
+    {
+      "path": "media/screenshots/07_DEEP_LEARNING_LAB.png",
+      "size": 129781,
+      "sha256": "b6c3163e20e004c7d7dbc37104d04ee59044b7f7a5a89596eeab42992447f949"
+    },
+    {
+      "path": "media/screenshots/08_FOUNDATION_MODELS.png",
+      "size": 129734,
+      "sha256": "51e33eb97418a498672a05136664a0994992ce06f60936861a67efbb4350c606"
+    },
+    {
+      "path": "media/screenshots/09_RESEARCH_ENVIRONMENT.png",
+      "size": 156647,
+      "sha256": "928d14ac6e1c5bd82bea1573bc6a502e8ae1983c6e38a03d6544cb1709bc66a7"
+    },
+    {
+      "path": "media/screenshots/10_REPORTS_&_EXPORTS.png",
+      "size": 155551,
+      "sha256": "68b41261566cad76926dfdaf2f5872e3d1fd472fb8f67f50276331ea6b2ac126"
+    },
+    {
+      "path": "media/screenshots/12_GUIDE_&_SAFETY.png",
+      "size": 137429,
+      "sha256": "587e65785a75a40bde36a142bed8f0c662a928399e1f0a23b23d45dcfffe0b75"
+    },
+    {
+      "path": "media/screenshots/13_ECG_VALIDATION.png",
+      "size": 89045,
+      "sha256": "e484a4a51a7b67a7b768f8332a84864b4d2483f6955b993ad76ecef4d791022a"
+    },
+    {
+      "path": "media/screenshots/14_SETTINGS.png",
+      "size": 116444,
+      "sha256": "80ad22941608e3c885ad365c8f95c6991b684072eee7a6f02ccee485b8da58d9"
+    },
+    {
+      "path": "media/screenshots/15_QUALITY_MOTION_ARTIFACT.png",
+      "size": 138424,
+      "sha256": "fddf7d62f1b32d99216745d4c69a42ec2cc0f2f13106c3c8411a2f6385baf8d6"
+    },
+    {
+      "path": "media/screenshots/18_EEG_EMG_SIGNAL_LAB.png",
+      "size": 250793,
+      "sha256": "ce70b29b2db7cc6b3edf61f16c527441ec58166538a3bd5b1a21ead71e636f54"
+    },
+    {
+      "path": "requirements-ai.txt",
+      "size": 191,
+      "sha256": "76f5c40bc3e40de2ba33c5288a2ba58a95677171cb243398842ebe5e2f6b33a9"
+    },
+    {
+      "path": "requirements-build.txt",
+      "size": 35,
+      "sha256": "fa2e7f7e3890a22a2dae31bfdf432d8cac11c9191f144b5daa5249b58ea0e55d"
+    },
+    {
+      "path": "requirements-security.txt",
+      "size": 112,
+      "sha256": "b97c4f33c58952a49c506c1f62c67440dc190a69a36d84ae5c153b6257ac2ee8"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109,
+      "sha256": "db6f014a7f16fd8138a5de8a7213ffe767afda214a53f47ca61d9c0e0dbbee8b"
+    },
+    {
+      "path": "scripts/BUILD_ADVANCED_AI_WINDOWS_EXE.bat",
+      "size": 1762,
+      "sha256": "39a36d031eef6a23fa87b76cb35a24165c337fc9081a09608fbff779a4c3c9a7"
+    },
+    {
+      "path": "scripts/BUILD_WINDOWS_EXE.bat",
+      "size": 1635,
+      "sha256": "0e2360d726641ca1b64c3eb28cb6ce4fef04dc9fae4bf2c26bd75b9787626159"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "size": 45,
+      "sha256": "2dc21ac7be937fbcf62cbeedb638b595cc0663147a3c477af93b962a13ac5159"
+    },
+    {
+      "path": "scripts/benchmark_mitbih.py",
+      "size": 2410,
+      "sha256": "bc2ccf3baeaadac183b5a1e916a4685301da061475504bfdde5467000bf1c60d"
+    },
+    {
+      "path": "scripts/capture_research_environment.py",
+      "size": 1273,
+      "sha256": "9d46a0a1db97d340d2bb7c39d0207168d31130c76d35586f71efc9ab91d0a967"
+    },
+    {
+      "path": "scripts/clinical_readiness_benchmark.py",
+      "size": 15706,
+      "sha256": "e8b383d8110a1902ace3bd83ed1b129d90d64081556917938bf94b973a0c8998"
+    },
+    {
+      "path": "scripts/collect_engineering_evidence.py",
+      "size": 5816,
+      "sha256": "63246e69eabc833284f808cc5d467ba6cc3a650913872e8707246cf192b47b37"
+    },
+    {
+      "path": "scripts/download_physionet.py",
+      "size": 2227,
+      "sha256": "ec5815060362eff5b157c73c29834d4a2a8791bea9540cc42faf3d2fee175866"
+    },
+    {
+      "path": "scripts/evaluate_qrs.py",
+      "size": 2046,
+      "sha256": "fc38239499e4ecdc5ee58afc8e7ad642834b13f76e8e5f0376dbee7f7cf01850"
+    },
+    {
+      "path": "scripts/hospital_readiness_check.py",
+      "size": 1393,
+      "sha256": "66352ff268f889eeb4f0f47cd2c4ffd1a50a06b97342d37939622ae6fe366220"
+    },
+    {
+      "path": "scripts/make_synthetic_ai_fixture.py",
+      "size": 1724,
+      "sha256": "1016f6739a481ae7010027cdecd458a83b7a0f46c3d287bcf150503502e82da4"
+    },
+    {
+      "path": "scripts/reference_annotation_report.py",
+      "size": 1864,
+      "sha256": "8ad7c8f96a4c9c3883cd702a74b93ef4150415b1e5be55ad604285d8f6a69d32"
+    },
+    {
+      "path": "scripts/research_safety_tools.py",
+      "size": 2870,
+      "sha256": "b017d0a094d9a32b13a2214a4244200488b2c68c764385d4db5fb9e57bceda08"
+    },
+    {
+      "path": "scripts/seed_showcase_workspace.py",
+      "size": 2096,
+      "sha256": "613c4af472dd69fd10ecc8dd7834f500195351f2dcaea0b6e0facc7a5c03a30d"
+    },
+    {
+      "path": "scripts/smoke_brand_v44.py",
+      "size": 1664,
+      "sha256": "40b5a1b40310a8b8374dcbefee4110491152746406f3dbabcb2e703d4a8659a9"
+    },
+    {
+      "path": "scripts/smoke_hospital_readiness_gui.py",
+      "size": 1444,
+      "sha256": "f27776ba16a28a4cbb58026685a6a2c28840ee8ad367b5786cd450c7fea3d044"
+    },
+    {
+      "path": "scripts/smoke_layout_v43.py",
+      "size": 2769,
+      "sha256": "a18fadb0e8973133d0403df0ef898ac0d77765b8972c5e05db7c42cbd45e0dc8"
+    },
+    {
+      "path": "scripts/verify_evidence_package.py",
+      "size": 874,
+      "sha256": "6e76e39ab323b267be1c286290ae2187713711b285fa582b1c4de34303b733b8"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "size": 937,
+      "sha256": "4a448b96d317da0443d13ef0211c515c9db98f00928cb3e88ff1ad15a34b26f1"
+    },
+    {
+      "path": "tests/test_ai_research_v2.py",
+      "size": 2712,
+      "sha256": "8e03245f93c0e5e141ad666a204c9f2900381402806952f8c11e2316a8b5a2b7"
+    },
+    {
+      "path": "tests/test_brand_identity_v44.py",
+      "size": 1414,
+      "sha256": "a038375f2679ed3e60c34353b774f9d2398c682e532eca0017c3009df840dce4"
+    },
+    {
+      "path": "tests/test_clinical_verification_v45.py",
+      "size": 4953,
+      "sha256": "56fdb8f01e5804882da4bc27f84bc028d0b74ddef9cae33c35880f65af68e5bc"
+    },
+    {
+      "path": "tests/test_ecg_validation_v41.py",
+      "size": 5453,
+      "sha256": "ce57ff512a68071ac01edbfbd4b44cee6bbf456ee7790e365e8db36f883f6cd1"
+    },
+    {
+      "path": "tests/test_evaluator.py",
+      "size": 210,
+      "sha256": "d4bb0a1fb0d4070549a3962ef5c660ace1b933ce1e4e258c7d5380f318e0cce1"
+    },
+    {
+      "path": "tests/test_evidence_collection_v47.py",
+      "size": 1301,
+      "sha256": "2752e99c729d9dcfc85cdf8e884051fcc5f77241b8c3caac60c66a52003f50dd"
+    },
+    {
+      "path": "tests/test_hospital_readiness_v46.py",
+      "size": 7581,
+      "sha256": "db73415d45c9aaa235bfad0e22b7e45788525630f6c7151ba5e23a9abae9ddae"
+    },
+    {
+      "path": "tests/test_importers.py",
+      "size": 1261,
+      "sha256": "7305f93ddbc3dc43e43f26d56b6ff7da241ffdc1e333ae915f56de30e6fdf13f"
+    },
+    {
+      "path": "tests/test_instrument_ui_v4.py",
+      "size": 880,
+      "sha256": "b84f435baa39ed5c123ff0d9217551ecd74fedf10d025b265146f5c9f7b03535"
+    },
+    {
+      "path": "tests/test_interval_labels.py",
+      "size": 1415,
+      "sha256": "d63083ce48326706fecfcb43c9c1a01b5794e2d749c181340cc6ef661c49979f"
+    },
+    {
+      "path": "tests/test_modalities.py",
+      "size": 775,
+      "sha256": "6cb9a9b3d026241c106af2254a15a43b4be6d669f2ff66065e80ca920c666566"
+    },
+    {
+      "path": "tests/test_modeling.py",
+      "size": 1583,
+      "sha256": "c957ee349831975d38043f5b29afe21ac25b021cdaa708db859d621853086f7e"
+    },
+    {
+      "path": "tests/test_navigation_layout_v43.py",
+      "size": 1071,
+      "sha256": "a65ee74b5313e256a291593a8b6941a5ec4de78766f2cdff11eb0311d543cd02"
+    },
+    {
+      "path": "tests/test_processing.py",
+      "size": 1771,
+      "sha256": "00143898440d44593986f31b9cd2f3b795327b3b4704195471bc7d745f02e334"
+    },
+    {
+      "path": "tests/test_professional_reporting_v48.py",
+      "size": 6866,
+      "sha256": "315813885a47b570b432f0e81f9fb941a9671460803081acf64b890f20a783ec"
+    },
+    {
+      "path": "tests/test_research_environment_v3.py",
+      "size": 8295,
+      "sha256": "94b9807d64b11535635001a661664bed4667cd4f4dbb41069cf48543e56310bd"
+    },
+    {
+      "path": "tests/test_safety_engineering_v47.py",
+      "size": 5281,
+      "sha256": "aeba8f0e3e3a33f148532a5cad9fbdd7eb8f755e715ba1e4351135a71564fc30"
+    },
+    {
+      "path": "tests/test_sidebar_settings_v42.py",
+      "size": 2131,
+      "sha256": "991bb82f8b393393e74f01fd5c54f939c38e6b2e76dd67f6f3e3d2bc25b1813e"
+    },
+    {
+      "path": "tests/test_storage_and_reports.py",
+      "size": 1546,
+      "sha256": "fa2071eefd5e3e7b4450ea5cd75fb81fbdc832ff75b17a7d6691c2f2d67d8278"
+    },
+    {
+      "path": "vigil_studio/__init__.py",
+      "size": 82,
+      "sha256": "8d26870ad36f032020da57575e198b67beaafb4e67b8b4c2a15dc210a73fab31"
+    },
+    {
+      "path": "vigil_studio/__main__.py",
+      "size": 116,
+      "sha256": "eb5f5d9b9e23a5604ce1aabba35e9ecd6813e548c7c310995ef6e7b8c74d1fb1"
+    },
+    {
+      "path": "vigil_studio/ai/__init__.py",
+      "size": 70,
+      "sha256": "fadcfa329a79fdc3d7d946f269897912a37ecb37f622b5ad37f7dab7cab42963"
+    },
+    {
+      "path": "vigil_studio/ai/__main__.py",
+      "size": 47,
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "path": "vigil_studio/ai/cli.py",
+      "size": 4611,
+      "sha256": "bdf0784a188bc7985e3a723ec6d380e2bc39fbe38c5d72e9fede64dd0bddf2a7"
+    },
+    {
+      "path": "vigil_studio/ai/datasets.py",
+      "size": 7637,
+      "sha256": "8708c9ba2eb5ea53e6b1b2c2927349627d07ff09dd9490c730aeb442f0d0d387"
+    },
+    {
+      "path": "vigil_studio/ai/experiment.py",
+      "size": 13574,
+      "sha256": "53ede0edb092c2fb32b455b15a6424871b71f5aa634bf74c3009fd7989997d7f"
+    },
+    {
+      "path": "vigil_studio/ai/network.py",
+      "size": 1334,
+      "sha256": "ab55cbf729d24e2b0e8d172e92050967ef4078a3db97191070d3771778016da8"
+    },
+    {
+      "path": "vigil_studio/ai/registry.py",
+      "size": 3861,
+      "sha256": "f1fcf5c5b51fbf5791f9ed5a83539fc7fcf22142f05c9fb873b4bc369f8ede0f"
+    },
+    {
+      "path": "vigil_studio/assets/vigil_full_logo_original.png",
+      "size": 453023,
+      "sha256": "fa4b5d23a09fcf7fa2391a6ed7ffe45314383ca79582a63e6e425f36c62229ad"
+    },
+    {
+      "path": "vigil_studio/assets/vigil_signal_icon.ico",
+      "size": 47825,
+      "sha256": "1d2bf152b37dea8a4167741b9c1c5ba284d2fa9e0f72f9e626c1c58656a46ddf"
+    },
+    {
+      "path": "vigil_studio/assets/vigil_signal_icon.png",
+      "size": 27514,
+      "sha256": "ab1acdb5bc6facb60dea2399b572db2947247f78f46675cf126f626d75d6f95c"
+    },
+    {
+      "path": "vigil_studio/assets/vigil_signal_icon_source.png",
+      "size": 56250,
+      "sha256": "cfb84d65c33eb586899a2afe067f6d01e6a351fd2586a434fa4a5e66d93159fe"
+    },
+    {
+      "path": "vigil_studio/assets/vigil_signal_sidebar.png",
+      "size": 6189,
+      "sha256": "a221cbfe2af2e0322b65067b6586db2a984c340271672a5fbf97a70e81de8d6c"
+    },
+    {
+      "path": "vigil_studio/cli.py",
+      "size": 2692,
+      "sha256": "f5c82bcd6d7904e03a2e065fb9974a4971f65e8e23bd3da6d1b7b1de6402aa06"
+    },
+    {
+      "path": "vigil_studio/core/__init__.py",
+      "size": 74,
+      "sha256": "30efea4e006698e3046cfaf2d0c3219cdb83a4ae0e1540bb3a8f1775a5704c0e"
+    },
+    {
+      "path": "vigil_studio/core/case_dossier.py",
+      "size": 17615,
+      "sha256": "be2792eb18591832cc432509ed377b1c422c22228d30edca1c2d2d100b7eb135"
+    },
+    {
+      "path": "vigil_studio/core/demo.py",
+      "size": 1755,
+      "sha256": "658a21ebcaa07aac29d66a73ec57814b35b696238e8bec79e904ae5364c96229"
+    },
+    {
+      "path": "vigil_studio/core/ecg_validation.py",
+      "size": 7876,
+      "sha256": "a67d3d2f82edb99e465ec8921675a91fc6dec2a454edb7f5fe478b09c3489f25"
+    },
+    {
+      "path": "vigil_studio/core/evidence_bundle.py",
+      "size": 11398,
+      "sha256": "702a1cb3d2792fe37fc92b9035015f33fc85fcc8fcf1199a0817e3e7eaebdac8"
+    },
+    {
+      "path": "vigil_studio/core/importers.py",
+      "size": 5769,
+      "sha256": "6ad980b7eea3e5ea9475e08dd00dcad146a4bfcbc94cc654dee457a5af5d6b7c"
+    },
+    {
+      "path": "vigil_studio/core/modalities.py",
+      "size": 4897,
+      "sha256": "a95b4dc4ff135a7633be114c9c9ba6e48d63b6f3d0638ea57afc0ea11e48e89d"
+    },
+    {
+      "path": "vigil_studio/core/modeling.py",
+      "size": 6277,
+      "sha256": "75569b2de10a795cd83bd525cc2c8529dd32eb46343eacf9b764797187346694"
+    },
+    {
+      "path": "vigil_studio/core/processing.py",
+      "size": 8262,
+      "sha256": "5da1d7079b5e29aafe912324954acd06e20cb2e21e2bbdfcac6fbd8a86fde77c"
+    },
+    {
+      "path": "vigil_studio/core/professional_reports.py",
+      "size": 20247,
+      "sha256": "9f8c3033b088800a67828ba87239e4d0ee022e72bc7598b70984d76a1c22fbae"
+    },
+    {
+      "path": "vigil_studio/core/records.py",
+      "size": 3465,
+      "sha256": "0c98beededcf80d734ff7dc5b09539957f6e5a4b597fb567829b42c80a4444f1"
+    },
+    {
+      "path": "vigil_studio/core/reporting.py",
+      "size": 1771,
+      "sha256": "60dad0e7e945d7f77703f54111549db2fad51157855b87ca9021f7d7a4f25357"
+    },
+    {
+      "path": "vigil_studio/core/signal_quality_v01.py",
+      "size": 10959,
+      "sha256": "e8e1a8af723dc2ac8e5b4afd1d101c6b8845dde092265ce13b8e2c18344b34d0"
+    },
+    {
+      "path": "vigil_studio/core/store.py",
+      "size": 13747,
+      "sha256": "60cb437e56fad73b1360326147d12ebcc714f531d2c1605d7606b8d60e45b737"
+    },
+    {
+      "path": "vigil_studio/environment/__init__.py",
+      "size": 90,
+      "sha256": "75e54b7373d6643b5339e6efa7e55a3fab8626e4499fe2f2f122ce22c16e5d4b"
+    },
+    {
+      "path": "vigil_studio/environment/__main__.py",
+      "size": 45,
+      "sha256": "b95f5edd28868e221806dd6a981e0a199d433b2934d676eb5702a1b0f66babcc"
+    },
+    {
+      "path": "vigil_studio/environment/catalog.py",
+      "size": 3503,
+      "sha256": "a2dec0126ff02d9a584927ee8f9c98b6c2944e7fab97f9ff954a69155e535b4e"
+    },
+    {
+      "path": "vigil_studio/environment/cli.py",
+      "size": 7644,
+      "sha256": "18c7c8e2924f5604d47b1c6c27c96e281e05babf031c3a06c8d4453b01769214"
+    },
+    {
+      "path": "vigil_studio/environment/downloads.py",
+      "size": 10771,
+      "sha256": "d232b0b83862d957137b7af20b0f3a905a76166f0afaa1aeedcd6c3ec5dd9c61"
+    },
+    {
+      "path": "vigil_studio/environment/inventory.py",
+      "size": 7904,
+      "sha256": "065b8d33d55c3677f5bc998475a047f737e0990c46dad818221edbb2a1552649"
+    },
+    {
+      "path": "vigil_studio/environment/robustness.py",
+      "size": 4452,
+      "sha256": "bab9814403f820fc21cf65c25f170ba5d9cfd285af3d2e2be029f23a4f3a7532"
+    },
+    {
+      "path": "vigil_studio/safety/__init__.py",
+      "size": 169,
+      "sha256": "cdc2a884f20c708588433677ca382711e612ee7523175c4d9aefb93599e2f252"
+    },
+    {
+      "path": "vigil_studio/safety/audit_anchor.py",
+      "size": 3861,
+      "sha256": "cef7b71ab86c42c66dbcca315b7954ee4d4748c5741bd0d0bf5110bda440ba37"
+    },
+    {
+      "path": "vigil_studio/safety/encrypted_export.py",
+      "size": 6672,
+      "sha256": "4dcc62c64941b8d91fb3ed4f1bef233a83ea3a14f76b217323ebb7b9fb548b15"
+    },
+    {
+      "path": "vigil_studio/safety/gates.py",
+      "size": 8584,
+      "sha256": "d654b39caad475a99b42e422dca321320fc33bdfb092fbda79ba15ef54d4cabd"
+    },
+    {
+      "path": "vigil_studio/ui/__init__.py",
+      "size": 29,
+      "sha256": "295e9213c1999d42724af7219e6938daad28e381e82f9dcbd9e2ef4ae56ceb57"
+    },
+    {
+      "path": "vigil_studio/ui/app.py",
+      "size": 108548,
+      "sha256": "01e74d0e3e0b609929673e9d48d636498c7682e01350577d7d606ced211440c1"
+    },
+    {
+      "path": "vigil_studio/ui/branding.py",
+      "size": 1195,
+      "sha256": "c1bb43e798c21d711d9560662a8cd8a852b6fdcc353e2bcc745099c81e75df3e"
+    },
+    {
+      "path": "vigil_studio/ui/preferences.py",
+      "size": 2269,
+      "sha256": "83b4bf6fbaf457089f6b18334fa1575e1440498fcd53cca17ee14c740eb8ffa4"
+    }
+  ]
+}

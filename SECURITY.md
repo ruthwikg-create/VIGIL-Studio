@@ -1,9 +1,7 @@
-# Security and responsible use
+# Security policy (research release)
 
-VIGIL Studio v4.8 is experimental **biomedical research software only**. It is not authorized for clinical diagnosis, alarm control or patient monitoring.
+Do **not** upload patient-identifiable information, hospital credentials, access tokens, database backups, private keys or unpublished hospital protocols.
 
-Do not upload patient-identifiable recordings, access credentials, secrets, hospital records, local SQLite workspaces, proprietary datasets, or private encryption keys.
+The current release is an experimental research workstation. It is **not suitable for production clinical use** and does not provide hospital-compliant authentication, protected patient-data storage or authorization.
 
-Report potential security vulnerabilities privately to the repository owner instead of attaching sensitive examples to public issues. Follow the separate license requirements for third-party models and datasets.
-
-The research software's integrity checks and encrypted export utilities are not a hospital accreditation or regulatory approval.
+Please report potential security issues privately to the repository owner rather than attaching sensitive examples to public GitHub issues.

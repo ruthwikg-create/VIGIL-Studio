@@ -1,0 +1,18 @@
+Requirement,Risk,Implementation,Verification,Engineering status,Clinical gate
+HSE-001,Unprotected de-identified exports,safety/encrypted_export.py AES-256-GCM envelope,test_auth_encryption_roundtrip_and_unique_nonce; test_wrong_passphrase_and_modified_ciphertext_fail_closed,TESTED RESEARCH EXPORT ONLY,G06 still BLOCKED
+HSE-002,Weak export passphrases,safety/encrypted_export.py scrypt and minimum length,test_weak_passphrase_and_oversized_input_rejected,TESTED RESEARCH EXPORT ONLY,G06 still BLOCKED
+HSE-003,Accidental file overwrite,safety/encrypted_export.py O_EXCL file creation,test_saved_research_npz_roundtrip_without_plaintext_export,TESTED RESEARCH EXPORT ONLY,G06 still BLOCKED
+HSE-004,Unverified old data re-export,safety/encrypted_export.py digest gate,test_legacy_unverified_record_cannot_be_sealed,TESTED RESEARCH EXPORT ONLY,G03 and G06 BLOCKED
+HSE-005,Audit chain modified after local verification,safety/audit_anchor.py external HMAC seal,test_anchor_detects_signature_tampering_and_history_rewrite,TESTED PARTIAL AUDIT CONTROL,G06 still BLOCKED
+HSE-006,Audit deletion/truncation,safety/audit_anchor.py prefix attestation,test_anchor_detects_audit_truncation,TESTED PARTIAL AUDIT CONTROL,G06 still BLOCKED
+HSE-007,Audit key inside writable workspace,safety/audit_anchor.py reject workspace descendant paths,test_anchor_requires_external_key_and_external_file,TESTED PARTIAL AUDIT CONTROL,G06 still BLOCKED
+HSE-008,Untracked version and test state,scripts/collect_engineering_evidence.py source digest and pytest recording,test_evidence_does_not_require_patient_data; test_source_manifest_cannot_include_workspace_patient_data,TESTED EVIDENCE TOOL,G02 still BLOCKED
+HSE-009,Clinical authorization inferred from passing security controls,safety/gates.py assess_release hard-block,test_readiness_stays_blocked_after_security_controls; test_release_security_status_can_verify_external_anchor,TESTED FAIL-CLOSED,G01-G08 BLOCKED
+HSE-010,CSV import memory exhaustion,core/importers.py bounded cell count,Full regression tests; import stress tests pending,PARTIAL,G03 still BLOCKED
+HSE-011,Unencrypted raw export without notice,ui/app.py explicit confirmation,GUI startup smoke; operator Windows confirmation outstanding,PARTIAL,G06 still BLOCKED
+HC-001,Clinical user authentication,NOT IMPLEMENTED,Hospital SSO integration and pentest,OPEN,G06 BLOCKED
+HC-002,Full workspace/backups encryption,NOT IMPLEMENTED,Hospital cryptography key management verification,OPEN,G06 BLOCKED
+HC-003,Analytical clinical performance,NOT VALIDATED,Complete 48 record and independent external studies,OPEN,G04 BLOCKED
+HC-004,Prospective efficacy and usability,NOT VALIDATED,Hospital clinical study/ethics and IEC 62366 review,OPEN,G05 BLOCKED
+HC-005,Manufacturer and regulatory authorization,NOT ESTABLISHED,Clinical and regulatory signed evidence,OPEN,G01 G02 G08 BLOCKED
+HC-006,Hospital integration with safe failover,NOT IMPLEMENTED,Integration contract and downtime testing,OPEN,G07 BLOCKED

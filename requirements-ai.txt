@@ -1,0 +1,6 @@
+# Optional genuine 1–5 GB-class AI research installation.
+# Downloaded model weights NOT included in source ZIP.
+torch>=2.4,<3
+safetensors>=0.4,<1
+huggingface-hub>=0.25,<2
+momentfm>=0.1,<1

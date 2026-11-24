@@ -1,0 +1,2 @@
+# Optional encrypted research handoff. Does not secure the existing unencrypted workspace.
+cryptography>=44,<49
