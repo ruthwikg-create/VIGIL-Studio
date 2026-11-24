@@ -1,0 +1,44 @@
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+build/
+dist/
+*.spec
+
+# Sensitive/large local research data
+VIGILStudio_Workspace/
+VIGILStudio_Workspace*/
+VIGIL_WORKSPACE_PATH.txt
+SHOWCASE/demo_workspace/
+**/research.sqlite3
+**/*.sqlite3
+**/*.db
+**/*.db-*
+**/*.npz
+**/*.pkl
+**/*.joblib
+**/*.safetensors
+external_data/
+raw_datasets/
+processed_data/
+runs/
+checkpoints/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*credentials*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Partial downloads
+*.partial
+*.extracting/
+.DS_Store
+Thumbs.db
